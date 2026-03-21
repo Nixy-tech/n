@@ -70,7 +70,7 @@ ul li::before{
     content: '';
     position: absolute;
     height: 28px;
-    weight: 28px;
+    font-weight: 28px;
     border-radius: 50%;
     /* background-image: ; */
     background-size: cover;
