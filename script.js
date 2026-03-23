@@ -1,5 +1,5 @@
 const inputBox = document.getElementById("input-box");
-const list-container = document.getElementById("list-container");
+const listContainer = document.getElementById("list-container");
 
 function addTask(){
     if(inputBox.value=== ''){
@@ -18,11 +18,11 @@ function addTask(){
 }
 
 listContainer.addEventListener("click", function(e){
-    if(e.target.tagName === "LI"){
+    if(e.target.tagName === "li"){
         e.target.classList.toggle("checked");
         saveData();
     }
-    else if(e.target.tagName === "SPAN"){
+    else if(e.target.tagName === "span"){
         e.target.parentElement.remove();
         saveData();
     }
